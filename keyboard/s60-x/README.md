@@ -2,6 +2,9 @@ S60-X keyboard firmware
 =======================
 DIY compact keyboard designed by VinnyCordeiro for Sentraq. Most of the keymaps are based on GH60 code.
 
+## WARNING!!!
+This firmware version is only for the original version of the S60-X, without LED support. If you want to customize your S60-X RGB, you'll need to use QMK firmware for that. As far as I know the code isn't still publicly available yet, I'll link it here when it does.
+
 ## Build
 Move to this directory then just run `make` like:
 
