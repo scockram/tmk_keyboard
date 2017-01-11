@@ -10,10 +10,7 @@ Updates
 #### 2017/01/11
 **Sentraq S60-X specific** S60-X RGB now supported through http://qmk.sized.io configuration files, please download the proper JSON file and download the firmware from there.
 
-
-#### 2016/12/26
-**Sentraq S60-X specific** The firmware available here is just for the vanilla version, **NOT** the RGB version. The code for this firmware is still unreleased.
-
+Changed action code for `ACTION_LAYER_MODS` and this may cause incompatibility with existent shared URL and downloaded firmwware of keymap editor. If you are using the action you just have to redefine it on keymap editor. Existent keymap code should not suffer.
 
 #### 2016/06/26
 Keymap framework was updated. `fn_actions[]` should be defined as `action_t` instead of `uint16_t`. And default code for keymap handling is now included in core you just need define `uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS]` and `action_t fn_actions[]`.
