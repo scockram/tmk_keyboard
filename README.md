@@ -7,6 +7,10 @@ The latest source code is available here: <http://github.com/tmk/tmk_keyboard>
 
 Updates
 -------
+#### 2017/01/11
+**Sentraq S60-X specific** S60-X RGB now supported through http://qmk.sizedf.io configuration files, please download the proper JSON file and download the firmware from there.
+
+
 #### 2016/12/26
 **Sentraq S60-X specific** The firmware available here is just for the vanilla version, **NOT** the RGB version. The code for this firmware is still unreleased.
 
