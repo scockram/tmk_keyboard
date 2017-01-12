@@ -10,6 +10,9 @@ My coding skills are not very good, after 10+ years not programming professional
 
 That said, [Ruiqi Mao](http://www.ruiqimao.com/) made (again!) an AMAZING job making [a site to create your own custom QMK firmware for your keyboard.](http://qmk.sized.io/) Just upload the proper JSON file and you'll have a basic setup already made, just leaving for you the finer details. ANSI and ISO files should be pretty straightforward; the GENERIC file just makes all keys available on the PCB visible, as some are not used on ANSI layout and others are not used on ISO layout, namely the extra keys for JIS and HHKB layout compatibility.
 
+## But I really do prefer to code it directly!
+That's ok. You can find the QMK firmware code [here](https://github.com/jbyoung/qmk_firmware), forked from the original repo.
+
 ## Build
 Follow QMK firmware instructions, or download the HEX file directly from http://qmk.sized.io after you are finished setting up your keyboard.
 
