@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sudo dfu-programmer atmega32u4 erase
+sleep .5
+sudo dfu-programmer atmega32u4 flash S60-X_lufa.hex
+sleep .5
+sudo dfu-programmer atmega32u4 start
